@@ -7,14 +7,6 @@ Architecture and source selection reasoning.
     - retrieval component
     - clarification component
     - source filter
-3. Information flow
-4. Design decisions
-    - clarification
-    - local retrieval
-    - transparency
-    - recency
-5. Limitations
-6. System Diagram
 
 -------
 Purpose
@@ -33,44 +25,13 @@ Context manager: It controls the topic from the user message, user preferences o
 
 Retrieval component: This identifies relevant documents from the local corpus using the context manager (ie.e. the topic and user preferences).
 
-## Clarification component
+Clarification component: Identifies missing or ambiguous source preferences.
 
-Identifies missing or ambiguous source preferences.
+Source filter: Selects documents matching the user's preferences and recency requirements.
 
-## Source filter
-
-Selects documents matching the user's preferences and recency requirements.
-
-## Evidence display
-
-Presents the answer alongside supporting sources and dates.
-
-----------------
-Information Flow
-----------------
+Evidence display: Presents the answer alongside supporting sources and dates.
 
 
-
-
-----------------
-Design Decisions
-----------------
-
-
-
-
-
------------
-Limitations
------------
-
-
-
-
-
---------------
-System Diagram
---------------
 
 
 

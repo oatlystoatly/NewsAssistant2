@@ -122,8 +122,6 @@ ChatGPT was used to support the development of the prototype, including discussi
 
 AI-generated suggestions were adapted throughout development to reflect the intended interaction design.
 
-<>
-
 The final implementation, storyboards, markdown files, logic and reasoning and  design decisions remain the responsibility of the project author.
 
 ----------
@@ -155,7 +153,11 @@ Streamlit — framework used to develop the conversational interface.
 
 ChatGPT (OpenAI) — assistance with Python development, debugging, interaction design and documentation.
 
-Lab 4 teaching materials — adapted for the initial context mapping exercise.
+Lab teaching materials — adapted for the initial context mapping exercise and doc design inputs.
+
+LucidChart - All charts are made on Lucid chart but not using the AI feature.
+
+Canva -- All storyboards are made on canva, not using the AI feature, the only exemption is some of the design/pitcure 'elements' can be sourced from AI from the way that it is drawn.
 
 The source corpus contains fictional material created for simulation purposes and does not represent genuine published articles.
 
