@@ -46,7 +46,7 @@ def interpret(text):
     t = text.lower()
     if 'black sabbath' in t:
         topic = 'Black Sabbath'
-    elif ('selly oak' in t or 'selly bin' in t) and re.search(r'bin|strike|waste',t):
+    elif ('selly oak' in t or 'selly bin' in t) and re.search(r'\b(bin|strike|waste|news|articles?|sources?)\b',t):
         topic = 'Selly Oak bin strikes'
     else:
         return None
