@@ -77,3 +77,18 @@ A configurable 30-day recency threshold was introduced alongside the superseded 
 
 7. Contextual memory 
 
+This allows multi turn conversations and the option to go back to the previou state when filtering through different sources. 
+
+However, this could be developed further and improved as in some cases, for example, after a large amount of input it may not remember information. This is mainly because it believes it in a different state.
+
+8. Academic suitability warnings
+
+This was developed specifically for the Tiktok scenario. I did not want you to not be able to access sources, but also warn the content of said sources.
+
+9. Streamlit integration
+
+This improved accessibility and conversation presentation. This allowed problems that I found such as how the metadata of sources were presented to be identified and fixed. 
+
+10. Testing and refinement
+
+This can be seen in the test record. 
