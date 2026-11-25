@@ -120,6 +120,8 @@ AI ASSISTANCE
 
 ChatGPT was used to support the development of the prototype, including discussions of system architecture, Python implementation, contextual memory, source filtering, warning messages and Streamlit integration.
 
+CoPilot was used to help with git submissions and prototype development as well as working through directories.
+
 AI-generated suggestions were adapted throughout development to reflect the intended interaction design.
 
 The final implementation, storyboards, markdown files, logic and reasoning and  design decisions remain the responsibility of the project author.
@@ -166,4 +168,5 @@ Academic literature informing the design is referenced in the accompanying assig
 
 ## SUBMITTED VERSION
 - Repository 
+https://github.com/oatlystoatly/NewsAssistant2/tree/main
 - Submitted commit or release
