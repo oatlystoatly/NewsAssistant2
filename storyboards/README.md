@@ -1,1 +1,0 @@
-This is my project status, setup and development record.

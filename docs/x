@@ -1,0 +1,109 @@
+# Functional test record
+
+## T01 — Ambiguity
+- Input: Give me updates on the Selly Oak bin strikes
+- Expected: Requests source clarification rather than assuming a category.
+- Observed: Not recorded
+- Result: Pending
+
+## T02 — Multiple categories
+- Input: Select a, b
+- Expected: Returns matching news and academic sources.
+- Observed: Not recorded
+- Result: Pending
+
+## T03 — All news
+- Input: Show all news
+- Expected: Returns BBC, ITV and CNN.
+- Observed: Not recorded
+- Result: Pending
+
+## T04 — Recent news
+- Input: Show all recent news
+- Expected: Returns BBC and ITV; excludes CNN.
+- Observed: Not recorded
+- Result: Pending
+
+## T05 — Current news
+- Input: Show only current news
+- Expected: Returns BBC and ITV.
+- Observed: Not recorded
+- Result: Pending
+
+## T06 — Historical news
+- Input: Show historical news
+- Expected: Returns CNN only.
+- Observed: Not recorded
+- Result: Pending
+
+## T07 — All sources
+- Input: Show all sources
+- Expected: Returns all five records.
+- Observed: Not recorded
+- Result: Pending
+
+## T08 — Recent sources
+- Input: Show all recent sources
+- Expected: Returns all records except CNN.
+- Observed: Not recorded
+- Result: Pending
+
+## T09 — Transparency
+- Input: Why did you include the outdated article?
+- Expected: Explains inclusion of CNN after it is opened.
+- Observed: Not recorded
+- Result: Pending
+
+## T10 — Correction
+- Input: exclude outdated
+- Expected: Revises results and removes CNN.
+- Observed: Not recorded
+- Result: Pending
+
+## T11 — Contextual memory
+- Input: Initial report request → Show all recent news
+- Expected: Retains the topic and report purpose.
+- Observed: Not recorded
+- Result: Pending
+
+## T12 — Academic warning
+- Input: Initial report request → Select c → Open TikTok
+- Expected: Displays a source suitability warning.
+- Observed: Not recorded
+- Result: Pending
+
+## T13 — Warning relevance
+- Input: Request without academic purpose → Open TikTok
+- Expected: Displays TikTok without the academic-specific warning.
+- Observed: Not recorded
+- Result: Pending
+
+## T14 — Historical preferences
+- Input: New ambiguous request → use previous
+- Expected: Reuses source categories only after confirmation.
+- Observed: Not recorded
+- Result: Pending
+
+## T15 — Unsupported request
+- Input: How many members are there in Black Sabbath?
+- Expected: Recognises the topic but declines to provide an unsupported answer.
+- Observed: Not recorded
+- Result: Pending
+
+## T16 — Unrecognised request
+- Input: Tell me about quantum physics
+- Expected: Explains that the request is not understood within the simulation.
+- Observed: Not recorded
+- Result: Pending
+
+## T17 — Reset
+- Input: reset
+- Expected: Clears active context and previous preferences.
+- Observed: Not recorded
+- Result: Pending
+
+## T18 — Interface and session
+- Input: Send several messages through Streamlit
+- Expected: Messages remain visible and active context survives normal app reruns.
+- Observed: Not recorded
+- Result: Pending
