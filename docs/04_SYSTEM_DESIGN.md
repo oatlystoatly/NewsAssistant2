@@ -16,12 +16,15 @@ Architecture and source selection reasoning.
 5. Limitations
 6. System Diagram
 
-<Purpose>
+-------
+Purpose
+-------
 
-The News assistant finds information on topics for the user on any topic. The hardware not expressed is access to the internet and link to most search engines. 
+The News assistant finds information on topics for the user on any topic. The hardware not expressed is access to the internet, link to most search engines and a working LLM. 
 
-
-<System Components>
+-----------------
+System Components
+-----------------
 
 User interface: The user interface recieved questions and messages. It also presents clarification options when there is ambiguity with the message.
 
@@ -30,14 +33,46 @@ Context manager: It controls the topic from the user message, user preferences o
 
 Retrieval component: This identifies relevant documents from the local corpus using the context manager (ie.e. the topic and user preferences).
 
-Clarification component
+## Clarification component
 
 Identifies missing or ambiguous source preferences.
 
-Source filter
+## Source filter
 
 Selects documents matching the user's preferences and recency requirements.
 
-Evidence display
+## Evidence display
 
 Presents the answer alongside supporting sources and dates.
+
+----------------
+Information Flow
+----------------
+
+
+
+
+----------------
+Design Decisions
+----------------
+
+
+
+
+
+-----------
+Limitations
+-----------
+
+
+
+
+
+--------------
+System Diagram
+--------------
+
+
+
+
+

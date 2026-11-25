@@ -130,12 +130,18 @@ The final implementation, storyboards, markdown files, logic and reasoning and  
 ADDITIONAL 
 ----------
 PROJECT FILES
+
 Context Map — Initial context and assumptions.
+
 Test Record — Functional testing and evaluation.
+
 Interaction Design — Developed interaction scenarios and alternative paths.
+
 System Design — System architecture and design decisions.
-docs/screenshots/ — Visual evidence of developed interactions and reasoning.
-sources/ — Fictional local news source corpus.
+
+Docs/screenshots/ — Visual evidence of developed interactions and reasoning.
+
+Sources/ — Fictional local news source corpus.
 
 ## REFERENCES AND ACKNKOWLEDGEMENTS
 Python — programming language and standard libraries.
