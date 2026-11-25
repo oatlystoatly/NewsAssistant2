@@ -139,11 +139,16 @@ Interaction Design — Developed interaction scenarios and alternative paths.
 
 System Design — System architecture and design decisions.
 
-Docs/screenshots/ — Visual evidence of developed interactions and reasoning.
+/docs/test_case_photos/ — Visual evidence of developed testing.
 
 Sources/ — Fictional local news source corpus.
 
+xtras - This includes the simulation example to show progression
+
+Additional Diagrams - These provide visual examples of the flow charts and reasoning.
+
 ## REFERENCES AND ACKNKOWLEDGEMENTS
+
 Python — programming language and standard libraries.
 
 Streamlit — framework used to develop the conversational interface.

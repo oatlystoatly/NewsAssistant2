@@ -1,3 +1,12 @@
+## Testing Method
+
+The prototype is evaluated using scenario-based functional testing and simulated interaction walkthroughs. Each test examines whether the developed system responds appropriately to a predefined user request or interaction sequence.
+
+A controlled corpus of five fictional sources is used to ensure that the expected retrieval outcomes can be identified in advance.
+
+Each test records the user input, expected behaviour, observed behaviour and result. It is then supported in the folder /test_case_photos, excluding test case 10. 
+
+Where changes are made following a failed test, the interaction is repeated to evaluate the revised implementation. This assesses the functionality of the prototype rather than establishing its effectiveness with a wider population of users.
 
 IMPORTANT
 Requests such as 'all news' must be made unindependently, as it is simulated to have access to all internet articles, it would be undrealistic to show all news possible.
